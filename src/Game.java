@@ -22,6 +22,8 @@ public class Game
         String curDir = " ";
         String curOperation;
 
+        
+
         for(int i = 0;i < numOfOperations;i++)
         {
             ranSite = r.nextInt(6);
