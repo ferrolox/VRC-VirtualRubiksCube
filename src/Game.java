@@ -5,7 +5,7 @@ public class Game
     static Random r = new Random();
     static Menu m = new Menu();
 
-    public static void main() throws InterruptedException
+    public static void main(String args[]) throws InterruptedException
     {
         Menu start = new Menu();
         Cube.setCube();
@@ -13,7 +13,7 @@ public class Game
         start.startingMenu();
     }
 
-    public static String[] twist(int numOfOperations)
+    public static String[] generateNotations(int numOfOperations)
     {
         String operations[] = new String[numOfOperations];
         int ranSite = 0;
@@ -21,8 +21,6 @@ public class Game
         String curSite = " ";
         String curDir = " ";
         String curOperation;
-
-        
 
         for(int i = 0;i < numOfOperations;i++)
         {
@@ -32,32 +30,26 @@ public class Game
             switch(ranSite)
             {
                 case 0:
-
                     curSite = "U";
                     break;
 
                 case 1:
-
                     curSite = "D";
                     break;
 
                 case 2:
-
                     curSite = "R";
                     break;
 
                 case 3:
-
                     curSite = "L";
                     break;
 
                 case 4:
-
                     curSite = "F";
                     break;
 
                 case 5:
-
                     curSite = "B";
                     break;
             }
@@ -65,16 +57,13 @@ public class Game
             switch(ranDir)
             {
                 case 0:
-
                     break;
 
                 case 1:
-
                     curDir = "'";
                     break;
 
             }
-
             curOperation = curSite + curDir;
             operations[i] = curOperation;
         }

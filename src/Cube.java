@@ -1,8 +1,6 @@
-import java.util.*;
-
 public class Cube
 {
-    private static String cube[][] =
+    private static String[][] cube =
             {
                     {" "," "," "," "," "," "," "," "," "},
                     {" "," "," "," "," "," "," "," "," "},
@@ -41,21 +39,16 @@ public class Cube
     // {E K E E K E E K E} {BYR BR BWR WRB WR WGR GRW GR GRY}
     // {K M K K M K K M K} {BY  B  BW  WB  W  WG  GW  G  GY }
     // {E K E E K E E K E} {BYO BO BOW WBO WO WOG GWO GO GOY}
-    // {      E,K,E      } {           OWB OW OGW           }
-    // {      K,M,K      } {           OB  O  OG            }
-    // {      E,K,E      } {           OBY OY OYG           }
-    // {      E,K,E      } {           YOB YO YGO           }
-    // {      K,M,K      } {           YB  Y  YG            }
-    // {      E,K,E      } {           YRB YR YGR           }
+    // {      E K E      } {           OWB OW OGW           }
+    // {      K M K      } {           OB  O  OG            }
+    // {      E K E      } {           OBY OY OYG           }
+    // {      E K E      } {           YOB YO YGO           }
+    // {      K M K      } {           YB  Y  YG            }
+    // {      E K E      } {           YRB YR YGR           }
 
-    public static void exeMove(String operation, boolean twist, int numOfOperations)
+    public static void executeTwist(int numOfNotations)
     {
-        String curOperation = " ";
 
-        for(int i=0; i<10;i++)
-        {
-            curOperation = Game.twist(numOfOperations)[i];
-        }
     }
 
     public static void setCube()
