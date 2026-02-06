@@ -1,63 +1,63 @@
 public class Cube
 {
     private static String[][] cube =
-            {
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
-                    {" "," "," "," "," "," "," "," "," "},
+        {
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
+            {" "," "," "," "," "," "," "," "," "},
 
-            };
-    private static String staCube[][] =
-            {
-                    {" "," "," ","RBY","RY","RYG"," "," "," "},
-                    {" "," "," ","RB","R","RG"," "," "," "},
-                    {" "," "," ","RBW","RW","RWG"," "," "," "},
-                    {"BYR","BR","BWR","WRB","WR","WGR","GRW","GR","GRY"},
-                    {"BY","B","BW","WB","W","WG","GW","G","GY"},
-                    {"BYO","BO","BOW","WBO","WO","WOG","GWO","GO","GOY"},
-                    {" "," "," ","OWB","OW","OGW"," "," "," "},
-                    {" "," "," ","OB","O","OG"," "," "," "},
-                    {" "," "," ","OBY","OY","OYG"," "," "," "},
-                    {" "," "," ","YOB","YO","YGO"," "," "," "},
-                    {" "," "," ","RB","R","RG"," "," "," "},
-                    {" "," "," ","YRB","YR","YGR"," "," "," "},
+        };
+    private static final String[][] baseCube =
+        {
+            {" "," "," ","RBY","RY","RYG"," "," "," "},
+            {" "," "," ","RB","R","RG"," "," "," "},
+            {" "," "," ","RBW","RW","RWG"," "," "," "},
+            {"BYR","BR","BWR","WRB","WR","WGR","GRW","GR","GRY"},
+            {"BY","B","BW","WB","W","WG","GW","G","GY"},
+            {"BYO","BO","BOW","WBO","WO","WOG","GWO","GO","GOY"},
+            {" "," "," ","OWB","OW","OGW"," "," "," "},
+            {" "," "," ","OB","O","OG"," "," "," "},
+            {" "," "," ","OBY","OY","OYG"," "," "," "},
+            {" "," "," ","YOB","YO","YGO"," "," "," "},
+            {" "," "," ","RB","R","RG"," "," "," "},
+            {" "," "," ","YRB","YR","YGR"," "," "," "},
 
-            };
+        };
 
-    // {      E K E      } {           RBY RY RYG           }
-    // {      K M K      } {           RB  R  RG            }
-    // {      E K E      } {           RBW RW RWG           }
-    // {E K E E K E E K E} {BYR BR BWR WRB WR WGR GRW GR GRY}
-    // {K M K K M K K M K} {BY  B  BW  WB  W  WG  GW  G  GY }
-    // {E K E E K E E K E} {BYO BO BOW WBO WO WOG GWO GO GOY}
-    // {      E K E      } {           OWB OW OGW           }
-    // {      K M K      } {           OB  O  OG            }
-    // {      E K E      } {           OBY OY OYG           }
-    // {      E K E      } {           YOB YO YGO           }
-    // {      K M K      } {           YB  Y  YG            }
-    // {      E K E      } {           YRB YR YGR           }
+    // {      C L C      } {           RBY RY RYG           }
+    // {      L M L      } {           RB  R  RG            }
+    // {      C L C      } {           RBW RW RWG           }
+    // {C L C C L C C L C} {BYR BR BWR WRB WR WGR GRW GR GRY}
+    // {L M L L M L L M L} {BY  B  BW  WB  W  WG  GW  G  GY }
+    // {C L C C L C C L C} {BYO BO BOW WBO WO WOG GWO GO GOY}
+    // {      C L C      } {           OWB OW OGW           }
+    // {      L M L      } {           OB  O  OG            }
+    // {      C L C      } {           OBY OY OYG           }
+    // {      C L C      } {           YOB YO YGO           }
+    // {      L M L      } {           YB  Y  YG            }
+    // {      C L C      } {           YRB YR YGR           }
 
-    public static void executeTwist(int numOfNotations)
+    public static void executeTwist(int numberOfNotations)
     {
 
     }
 
     public static void setCube()
     {
-        for(int i=0; i<staCube.length;i++)
+        for(int i=0; i<baseCube.length;i++)
         {
-            for(int j=0; j<staCube[j].length;j++)
+            for(int j=0; j<baseCube[j].length;j++)
             {
-                cube[i][j] = staCube[i][j];
+                cube[i][j] = baseCube[i][j];
             }
         }
     }

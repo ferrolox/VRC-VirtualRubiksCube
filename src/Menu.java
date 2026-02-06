@@ -6,7 +6,7 @@ public class Menu
     Scanner s = new Scanner(System.in);
     public void welcomeMSG() throws InterruptedException
     {
-        System.out.println("Welcome to your Virtual 3x3 Rubik's Cube(VC)");
+        System.out.println("Welcome to your Virtual 3x3 Rubik's Cube");
         TimeUnit.SECONDS.sleep(3);
         System.out.println("\nFirst, do you want to get a quick introduction to the program(VC)?\nType yes or no or esc to exit the program.\n");
     }
